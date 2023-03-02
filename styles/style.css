@@ -24,14 +24,135 @@ nav {
 
 .nav-link:hover {
     color: #D1A954;
-    font-weight: 400;
+    font-weight: 500;
     transition: 0.3s;
 }
 
+.main-link {
+    color: #D1A954;
+    border: 1px solid #D1A954E5;
+    padding: 7px 9px 6px;
+}
 
+/* -----------------------HEADER DONE----------------------- */
+
+/* -----------------------SECTION INTRO----------------------- */
+
+.intro {
+    padding: 30px 0 531px;
+}
 
 .container {
     max-width: 1800px;
     width: 100%;
     margin: 0 auto;
+}
+
+.intro-img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.slider {
+    text-align: center;
+    padding: 60px 0 30px;
+}
+
+
+
+/* -----------------------SECTION INTRO DONE----------------------- */
+
+/* -----------------------SECTION ABOUT----------------------- */
+
+.about {
+    background-color: #F9F7F7;
+    padding: 330px 0 90px;
+}
+
+.container-narrow {
+    max-width: 1040px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.video-spacing {
+    position: relative;
+    margin-top: -740px;
+}
+
+.box-horizontal {
+    margin-left: 35px;
+    padding: 60px 0 0;
+}
+
+.second-title {
+    font-size: 36px;
+    line-height: 52.2px;
+    color: #222222;
+    font-weight: 300;
+    text-align: center;
+}
+
+.second-title--p {
+    padding: 10px 0 0;
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: 300;
+    line-height: 11px;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+}
+
+.welcome {
+    gap: 49px;
+    width: 100%;
+}
+
+.new-line {
+    display: block;
+    padding: 0 0 18px;
+}
+
+.welcome p {
+    font-size: 14px;
+    line-height: 18.9px;
+    font-weight: 300;
+    max-width: 350px;
+}
+
+.third-title {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21.6px;
+    margin: 0;
+}
+
+.desc-box {
+    gap: 15px;
+}
+
+.description p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 19px;
+}
+
+.about-img {
+    text-align: center;
+}
+
+.description {
+    padding: 0 0 15px;
+    max-width: 255px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.desc-img-spacing {
+    width: 46px;
+    height: 37px;
 }
