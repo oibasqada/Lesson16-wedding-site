@@ -34,6 +34,12 @@ nav {
     padding: 7px 9px 6px;
 }
 
+.main-link:hover {
+    color: #222222;
+    border: 1px solid #222222E5;
+    padding: 7px 9px 6px;
+}
+
 /* -----------------------HEADER DONE----------------------- */
 
 /* -----------------------SECTION INTRO----------------------- */
@@ -155,7 +161,7 @@ p {
 }
 
 .welcome {
-    gap: 49px;
+    gap: 30px;
     width: 100%;
 }
 
