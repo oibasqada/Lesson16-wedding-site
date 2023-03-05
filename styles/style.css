@@ -44,6 +44,7 @@ nav {
 
 /* -----------------------SECTION INTRO----------------------- */
 
+
 .intro {
     padding: 30px 0 531px;
 }
@@ -119,6 +120,7 @@ p {
 /* -----------------------SECTION INTRO DONE----------------------- */
 
 /* -----------------------SECTION ABOUT----------------------- */
+
 
 .about {
     background-color: #F9F7F7;
@@ -216,8 +218,9 @@ p {
 
 /* -----------------------SECTION GALLERY----------------------- */
 
+
 .gallery {
-    padding: 120px 0 150px;
+    padding: 120px 0 75px;
 }
 
 .img-spacing img {
@@ -270,5 +273,44 @@ p {
     text-transform: uppercase;
 }
 
+/* -----------------------SECTION GALLERY DONE----------------------- */
+
+/* -----------------------SECTION ABOUT US----------------------- */
+
+
+.about-us {
+    margin: 75px 0 60px;
+    background: url("../assets/more-about-us.png") center center/cover no-repeat;
+    height: 410px;
+}
+
+.about-us h2 {
+    padding: 120px 0 70px;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 52px;
+    letter-spacing: 0.05em;
+}
+
+.about-us--a a {
+    text-decoration: none;
+    color: #fff;
+    padding: 22px 46px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+}
+
+.about-us--a {
+    gap: 90px;
+}
+
+
+/* -----------------------SECTION ABOUT US DONE!----------------------- */
+
+/* -----------------------SECTION FORM CONTROL----------------------- */
 
 
